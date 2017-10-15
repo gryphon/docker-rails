@@ -1,7 +1,5 @@
 .git
 .dockerignore
-.byebug_history
-public/uploads
-uploads
 log/*
 tmp/*
+build.sh
