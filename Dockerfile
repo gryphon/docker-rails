@@ -29,6 +29,7 @@ RUN set -ex \
     curl \
     gcc \
     gdbm-dev \
+    git \
     glib-dev \
     libc-dev \
     libffi-dev \
