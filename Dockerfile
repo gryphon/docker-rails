@@ -6,6 +6,12 @@ ENV RUBY_DOWNLOAD_SHA512 96c236bdcd09b2e7cf429da631a487fc00f1255443751c03c8abeb4
 ENV RUBYGEMS_VERSION 2.6.13
 
 ########################
+# # #  ESSENTIALS  # # #
+########################
+
+RUN apk --update add git make g++ tzdata
+
+########################
 # # #     RUBY     # # #
 ########################
 
@@ -29,7 +35,6 @@ RUN set -ex \
     curl \
     gcc \
     gdbm-dev \
-    git \
     glib-dev \
     libc-dev \
     libffi-dev \
